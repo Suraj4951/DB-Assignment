@@ -9,3 +9,5 @@ Q2) --> i) To ensure that each product in the Product table has a valid category
        ii) Foreign key constraints ensure that the values in the referencing column category_id in Product must match values in the referenced column id in Product_category.
       iii) Any attempt to insert or update a product with an invalid category_id will result in a foreign key constraint violation error.
        iv) Ensure that each product in the Product table has a valid Product_category assigned to it.
+
+Q3) --> Execute Schema.sql file to create the ProductDb database and the following tables: product_category, product_inventory, discount, and product.
